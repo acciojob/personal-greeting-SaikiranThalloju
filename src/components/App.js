@@ -12,8 +12,11 @@ const App = () => {
   return (
     <div>
       {/* Do not remove the main div */}
+      <p>Enter your name:</p>
       <input type="text" onChange={(e) => inputText(e)} />
-      {text && <p>Hello {text}!</p>}
+      {text && 
+      <p> Hello {text}!</p>
+      }
     </div>
   );
 }
